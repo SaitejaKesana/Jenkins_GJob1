@@ -1,0 +1,42 @@
+1)pwd : This command refers to the present working directory in which you are operating.
+	pwd
+2)dir : The dir command is used to print (on the terminal) all the available directories in the present working directory
+	dir
+3)ls : This command is used to list down all the directories and files inside the present working directory (or you can give the path of a specific directory)
+	ls
+The ls command supports various flags, and each flag has some specific role in printing the directories or files of the current working directory.
+
+4)ls -al : To print the detailed information of the files/directories; the “-al” flag is used with the “ls” command
+	ls -al
+5)ls -R : he “-R” flag will print subdirectories of a directory as well
+
+6)ls -a : to get the hidden files, “-a” flag is used
+
+7)cd : you can change the directories in the terminal using the “cd” command.
+
+8)touch : This Ubuntu command can be used to create a new file as well one can use it to change the timestamp of any file;
+	touch <file-name>
+9)cat :  This command is used to show the content of any file:
+
+	cat <file-name>
+	cat file1.txt file2.txt > output.txt
+		-you can use this command to save the content of multiples files to one file
+10) mkdir new
+
+11) rm :This remove command is used to remove the specific file from a directory
+	rm test.txt
+12)  rmdir test
+
+13) cp <source> <dest>
+	cp file1.txt directory1
+14) cp new -r directory1
+
+15)  mv : the command given below will move the “file2.txt” to “directory1”
+ 
+            mv file2.txt directory1
+16) head : This command helps you to get the first ten lines of a text file; for instance, the following command will help to get the first ten lines of the “file1.text” file
+	head file1.txt
+17) tail : The tail command is used to get the last ten lines of the text file; the command below will print the ten lines from the bottom of “file1.txt”
+	
+	tail file1.txt
+
