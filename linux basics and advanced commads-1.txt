@@ -1,0 +1,116 @@
+1. ls -  to list directories and files in a particular location.
+2. pwd - To check present working directory
+3. cd /location- it is used to change the present working directory
+4. cd  -  to come back home location directory
+5. clear - To wipe up all the previous statement (commands)
+6. cd .. -  To come back previous location by one step
+7. mkdir - To create your own folder(directory).
+ you can create multiple folder together.
+
+(how to change the name of directory that we have ?/)
+8. mv : used to rename a folder 
+9. mv : This command is also used to move the directory from one location
+         to other. ----> folder_name new_location
+note- whenever the desired location is present then mv will move it .
+     otherwise it will rename the directory name.
+
+10. WE have two commands for creating files \
+   1. touch : it will give just blank file
+   2. nano :  it will ask for edit , then create the file 
+
+note - if you have already created a file irrespective of touch or nano
+, when you want to edit it, go for 'nano' again.
+and if you wish to see the content of the file then use 'cat' command
+
+11. cat : to view the content of the file
+
+12. rm - it is used to remove files and directories. By using this commands you
+	 can also delete multiple file successivley.
+
+13. unlink - it will only remove 1 file at a time. if you wish to delete
+              multiple files at same time then go for 'rm' command
+
+14. rmdir - to remove the directory. Make sure there is nothing inside the directory 
+            which you are actually trying to delete
+
+15. rm -d directory name : same as point no. 14
+
+home task --- find out the commands to delete a full packed folder/directory  and implement it also.
+
+16. rm -r foldername -> This commands is used to delete a non empty folder/directory.
+  note - 'r' represent recursive
+
+17. rm - removing files
+    rmdir - removing empty folder
+    rm -r - removing non empty folder
+
+18. cp filename location/ = to copy a file from one location to another
+
+19. cp -r foldername location --> to copy a folder from one location to another
+
+#now we will see some package update/upgrade commands.
+
+note - sudo means, you are having all the admin rights
+
+20. sudo apt-get update - it will update/download the list of available packages in linux
+
+21. sudo apt-get upgrade - it will upgrade/install the list of downloaded packages.
+
+22. sudo apt -get update && sudo apt-get upgrade - you can use both of them simultaneously.
+
+23. sudo apt-get install apache2 --> to install a specific package(e.g. apach22)
+
+24. sudo apt install apache2 - to install a specific package(e.g. apache2)
+
+25. to make sure your linux machine is communicating well with host machine. Type ifconfig in linux, you will get
+  ip address. now open command propt in host machine and type 'ping' along with ip address of linux machine.
+  If ping is successful means linux machine is communicating well with host machine.
+
+26. uname ----> gives the user name (LINUX)
+
+27. uname -r --> to get info regarding linux version
+
+28. uname -a -> to get more info about linux
+
+29. history -- > to get the history of commands you have used till now
+
+30. man ls ---> you will get all the acronyms commands like -r, -a etc
+
+note - There are two types of directoy we have i.e. root directory and user directory. 
+#root directory is present inside user directory.
+#it is recommeded to not disturb the files present inside the user directory.
+#make a habit of using 'cd' commands before starting with any linux command in terminal.
+
+31. Now we gonna see permission system in files.
+There are 3 types defined category we have in linux.
+
+1. admin - > it must have all the permission
+2. group -> medium permission might have
+3. public -> it has all permission apart from write permission.
+
+#There are three types of permission we have in linux:
+read (r)   ----> 4
+write  (w) ----> 2
+execute (x) ---> 1
+
+Example - change the permission
+task :
+admin ---> rwx  --> 4+2+1 = 7 
+group ---> rw   --> 4+2 =   6
+public --> r    --> 4 =     4
+
+So, The sum becomes 764
+
+32. ls -l filename -->  to check the permission of a file 
+
+33. chmod (number combination) filename --> to change the permission of a file
+
+
+
+
+
+
+
+
+
+
